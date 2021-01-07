@@ -20,15 +20,18 @@
     </header>
     <!-- ========== END HEADER ========== -->
     <main>
+        <section>
+        </section>
         <aside>
             <ul>
                 <li>
                     <p>GETTING STARTED</p>
                     <a href="#pwd">git init</a>
-                    <a href="#cd">git add</a>
-                    <a href="#ls">git commit</a>
-                    <a href="#cat">git branch</a>
-                    <a href="#mkdir">git remote add</a>
+                    <a href="#cd">git status</a>
+                    <a href="#ls">git add</a>
+                    <a href="#cat">git commit</a>
+                    <a href="#mkdir">git branch</a>
+                    <a href="#touch">git remote add</a>
                     <a href="#touch">git push</a>
                 </li>
             </ul>
@@ -37,13 +40,62 @@
         <section>
 
             <article class="teaser">
-                <h1>Git</h1>
+                <h1>Git with GitHub</h1>
                 <p>Git is a free and open source distributed version control system designed to handle everything from
                     small to very large projects with speed and efficiency.
 
                     Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM
                     tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching,
                     convenient staging areas, and multiple workflows.</p>
+            </article>
+
+            <article id="init">
+                <h1>git init</h1>
+                <p>git-init - Create an empty Git repository or reinitialize an existing one</p>
+                <img src="../img/git-init.png" alt="git init">
+            </article>
+
+            <article id="status">
+                <h1>git status</h1>
+                <p>git-status - Show the working tree status</p>
+                <img src="../img/git-status.png" alt="git status">
+            </article>
+
+            <article id="add">
+                <h1>git add</h1>
+                <p>git-add - Add file contents to the index</p>
+                <img src="../img/git-add.png" alt="git add">
+            </article>
+
+            <article id="commit">
+                <h1>git commit</h1>
+                <p>git-commit - Record changes to the repository</p>
+                <img src="../img/git-commit.png" alt="git commit">
+            </article>
+
+            <article id="branch">
+                <h1>git branch</h1>
+                <p>With a -m or -M option, "oldbranch" will be renamed to "newbranch". If "oldbranch" had a
+                    corresponding reflog, it is renamed to match "newbranch", and a reflog entry is created to remember
+                    the branch renaming. If "newbranch" exists, -M must be used to force the rename to happen.</p>
+                <img src="../img/git-branch.png" alt="git commit">
+            </article>
+
+            <article id="remote">
+                <h1>git remote add</h1>
+                <p>Add a remote named "name" for the repository at "url". The command git fetch "name" can then be used
+                    to create and update remote-tracking branches "name"/"branch".</p>
+                <img src="../img/git-remote-add.png" alt="git commit">
+            </article>
+            <article id="push">
+                <h1>git push</h1>
+                <p>git-push - Update remote refs along with associated objects.Updates remote refs using local refs,
+                    while sending
+                    objects necessary to complete the given refs.
+                    You can make interesting things happen to a repository every time you push into it, by setting up
+                    hooks there.
+                </p>
+                <img src="../img/git-push.png" alt="git push">
             </article>
 
         </section>
