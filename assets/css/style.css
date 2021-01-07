@@ -101,6 +101,7 @@ main > section:first-of-type {
     margin-top: 68px;
     text-align: center;
     background: url(../img/pattern.svg);
+    border-bottom: 1px solid #e7eaf3;
 }
 
 main > section:first-of-type img {
@@ -110,7 +111,8 @@ main > section:first-of-type img {
 
 section:nth-last-of-type(1) {
     padding: 2rem 10%;
-    margin: -312px 10% 10% 16%;
+    margin: -254px 10% 10% 16%;
+    border-left: 1px solid #e7eaf3;
 }
 
 img {
